@@ -1,0 +1,86 @@
+/* devanagari */
+@font-face {
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sarala'), local('Sarala-Regular'), url(https://fonts.gstatic.com/s/sarala/v1/P2oxV5hsrwXISafdE4Obc_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sarala'), local('Sarala-Regular'), url(https://fonts.gstatic.com/s/sarala/v1/TmW7dZEsmV6jCG5RD3Gpk_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sarala'), local('Sarala-Regular'), url(https://fonts.gstatic.com/s/sarala/v1/s2t9exVCKzFG-HPaQHVGEA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+	font-size: 20px !important;
+	font-family: 'Sarala', sans-serif;
+}
+
+.content {
+	border-radius: 0.2em;
+	background-color: white;
+	text-align: center;
+
+	width: 60%;
+	margin: 0 auto;
+	padding: 1.7em;
+	padding-bottom: 3em;
+
+	margin-top: 3em;
+	z-index: 2;
+}
+
+@media (max-width: 500px) {
+	body{
+		font-size: 16px !important;
+	}
+
+	.content {
+		width: 70%;
+	}
+}
+
+.quote {
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.fa-quote-left {
+	font-size: 1.5em;
+}
+
+.author {
+	font-size: 0.95em;
+	font-weight: normal;
+	text-align: right;
+}
+
+button {
+	font-size: 0.85em;
+	padding: 0.5em;
+	border: none;
+	color: white;
+	border-radius: 0.15em;
+}
+
+.twitter-link {
+	float: left;
+}
+
+.new-quote {
+	float: right;
+}
+
+
